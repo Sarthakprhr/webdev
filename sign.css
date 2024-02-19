@@ -1,0 +1,225 @@
+.heed
+{  display: flex;
+    
+    height: 3rem;
+    background-color: #212124;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+body{
+    background-image: url("https://identity.flickr.com/img/033120190455-by-Henry.2edde7a9.jpg");
+    padding: 0;
+    margin: 0;
+}
+.image{
+    display: flex;
+
+}
+.image img
+{  width: 98px;
+    padding: 0;
+    margin: 60px;
+    height: 22px;
+}
+
+.total
+{
+    text-align: center;
+}
+.total .box{
+    
+   
+margin-left: auto;  
+margin-right: auto;
+}
+.total .ll
+{
+    display: flex;
+
+}
+.box
+{  display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+  justify-content: center;
+    background-color: white;
+    height: 650px;
+    width: 350px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border: 1px skyblue solid;
+    border-radius: 3px;
+    align-items: center;
+}
+.inp, .inp1,.logo,.submit, .signuplink{
+    display: flex;
+    justify-content: center;
+}
+.signuplink a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 0.875rem;
+    color: #128fdc;
+}
+.signuplink p{
+    font-size: 0.875rem;
+}
+.inp1 input
+{ border-radius: 1px;
+    border: 1px #000000  solid;
+  border-radius: 0.25rem;
+    height: 40px;
+ width: 295px;
+ font-size: 1rem;
+
+}
+.inp{
+    font-size: 1rem;
+}
+.inp2
+{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.inp1 input
+{ border-radius: 1px;
+    border: 1px #000000  solid;
+  border-radius: 0.25rem;
+    height: 40px;
+ width: 295px;
+ font-size: 1rem;
+
+}
+.inp2
+{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.inp1 input
+{ border-radius: 1px;
+    border: 1px #000000  solid;
+  border-radius: 0.25rem;
+    height: 40px;
+ width: 295px;
+ font-size: 1rem;
+
+}
+.inp2
+{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.inp2 input
+{ border-radius: 1px;
+    border: 1px #000000  solid;
+  border-radius: 0.25rem;
+    height: 40px;
+ width: 295px;
+ font-size: 1rem;
+
+}
+.inp3
+{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.inp3 input
+{ border-radius: 1px;
+    border: 1px #000000  solid;
+  border-radius: 0.25rem;
+    height: 40px;
+ width: 295px;
+ font-size: 1rem;
+
+}
+.inp4
+{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.inp4 input
+{ border-radius: 1px;
+    border: 1px #000000  solid;
+  border-radius: 0.25rem;
+    height: 40px;
+ width: 295px;
+ font-size: 1rem;
+
+}
+.inp5
+{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.inp5 input
+{ border-radius: 1px;
+    border: 1px #000000  solid;
+  border-radius: 0.25rem;
+    height: 40px;
+ width: 295px;
+ font-size: 1rem;
+
+}
+ .submit button{ 
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: #128fdc;
+    color: white;
+    font-size: 1rem;
+    width: 300px;
+    margin-top: 2rem;
+    height: 40px;
+    border: #128fdc solid 2px;
+    border-radius: 0.25rem;
+ }
+ .ll{
+    display: flex;
+    
+    margin-top: 0.5rem;
+width: 100%;
+justify-content: center;
+    
+ }
+ .ll select{
+margin-right: 140px;
+background-color: transparent;
+color: white;
+font-size: 1rem;
+
+
+ }
+ .ll a
+ {
+    color: white;
+    text-decoration: none;
+ }
+ .capcha {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 2px solid #c1c1c1;
+    font-size: 1px;
+    height: 24px;
+    position: absolute;
+    width: 24px;
+    z-index: 1;
+}
